@@ -31,7 +31,7 @@ public class ReactivehubClient {
      * @param payload
      * @return Future<HttpResponse<JsonNode>>
      */
-    public Future<HttpResponse<JsonNode>> sendEvent(ClientConfig clientConfig, String eventName, String payload) {
+    public Future<HttpResponse<JsonNode>> publishEvent(ClientConfig clientConfig, String eventName, String payload) {
 
         String url = String.format("https://%s/reactibehub.io/%s", clientConfig.getNamespace(), eventName);
 
