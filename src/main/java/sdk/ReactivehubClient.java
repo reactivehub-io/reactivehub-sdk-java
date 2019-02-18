@@ -7,10 +7,6 @@ import com.mashape.unirest.http.Unirest;
 import java.util.concurrent.Future;
 import java.util.logging.Logger;
 
-/**
- * Client to send events in Reactivehub
- *
- */
 public class ReactivehubClient {
 
     private static final Logger LOGGER = Logger.getLogger(ReactivehubClient.class.getName());
@@ -29,7 +25,7 @@ public class ReactivehubClient {
      * @param clientConfig
      * @param eventName
      * @param payload
-     * @return Future<HttpResponse<JsonNode>>
+     * @return  {@code Future}
      */
     public Future<HttpResponse<JsonNode>> publishEvent(ClientConfig clientConfig, String eventName, String payload) {
 
