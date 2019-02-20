@@ -1,4 +1,4 @@
-package com.reactivehub.sdk;
+package io.reactivehub.sdk;
 
 /**
  * @author luizcaciatori

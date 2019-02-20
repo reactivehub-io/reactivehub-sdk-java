@@ -1,4 +1,4 @@
-package com.reactivehub.sdk;
+package io.reactivehub.sdk;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;

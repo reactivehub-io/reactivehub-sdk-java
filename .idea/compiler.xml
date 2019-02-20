@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="reactivehubsdk" />
+        <module name="reactivehub-sdk" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="reactivehubsdk" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
