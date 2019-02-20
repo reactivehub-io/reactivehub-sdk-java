@@ -5,7 +5,7 @@
 
     <groupId>com.reactivehub.sdk</groupId>
     <artifactId>reactivehub-sdk</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4-SNAPSHOT</version>
 
     <name>Reactivehub SDK</name>
     <url>https://reactivehub.io</url>
@@ -54,7 +54,7 @@
         <connection>scm:git:git://github.com/dexecutor/dependent-tasks-executor.git</connection>
         <developerConnection>scm:git:git@github.com:dexecutor/dexecutor.git</developerConnection>
         <url>https://github.com/dexecutor/dependent-tasks-executor</url>
-        <tag>reactivehub-sdk-1.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
