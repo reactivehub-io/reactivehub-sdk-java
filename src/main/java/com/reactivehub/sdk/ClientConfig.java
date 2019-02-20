@@ -1,5 +1,8 @@
-package sdk;
+package com.reactivehub.sdk;
 
+/**
+ * @author luizcaciatori
+ */
 public class ClientConfig {
 
     private String namespace;
@@ -8,6 +11,11 @@ public class ClientConfig {
 
     private String clientSecret;
 
+    /**
+     * @param namespace
+     * @param clientKey
+     * @param clientSecret
+     */
     public ClientConfig(String namespace, String clientKey, String clientSecret) {
         this.namespace = namespace;
         this.clientKey = clientKey;

@@ -1,4 +1,4 @@
-package sdk;
+package com.reactivehub.sdk;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
@@ -7,6 +7,9 @@ import com.mashape.unirest.http.Unirest;
 import java.util.concurrent.Future;
 import java.util.logging.Logger;
 
+/**
+ * @author luizcaciatori
+ */
 public class ReactivehubClient {
 
     private static final Logger LOGGER = Logger.getLogger(ReactivehubClient.class.getName());
