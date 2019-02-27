@@ -9,6 +9,26 @@
 
     <name>Reactivehub SDK</name>
     <url>https://reactivehub.io</url>
+    <description>
+        The reactivehub.io Java SDK implements the methods to publish in Event api
+    </description>
+    <developers>
+        <developer>
+            <email>luiz.gustavo@reactivehub.io</email>
+            <name>Luiz Gustavo Caciatori</name>
+            <organization>Reactivehub</organization>
+            <organizationUrl>https://reactivehub.io</organizationUrl>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
