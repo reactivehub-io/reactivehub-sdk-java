@@ -4,9 +4,16 @@ The reactivehub.io Java SDK implements the methods to publish in [Event](https:/
 
 ## Installation
 
-``` TODO ```
+```
+<dependency>
+  <groupId>io.reactivehub.sdk</groupId>
+  <artifactId>reactivehub-sdk</artifactId>
+  <version>1.0.11-SNAPSHOT</version>
+</dependency>
+```
 
 ## Usage
+
 
 ## How to contribute
 We'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow.
